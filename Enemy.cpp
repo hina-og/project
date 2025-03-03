@@ -6,7 +6,6 @@
 Enemy::Enemy()
 	:pos_({ CHA_WIDTH * 19,CHA_HEIGHT * 9 }), isAlive_(true)
 {
-	//stg = &stage;
 	nextPos_ = pos_;
 }
 
@@ -70,10 +69,7 @@ void Enemy::Update()
 			}
 		}
 	}
-	else if (movePattern == 1)
-	{
-		
-	}
+
 	else
 	{
 		switch (direction)
@@ -110,7 +106,6 @@ void Enemy::Update()
 			break;
 		}
 	}
-
 	
 	/*switch (direction)
 	{

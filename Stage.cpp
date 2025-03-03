@@ -20,7 +20,6 @@ Stage::Stage()
 				else
 					stageData[y][x] = STAGE_OBJ::EMPTY;
 			}
-
 		}
 	}
 	setStageRects();

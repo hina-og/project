@@ -3,19 +3,10 @@
 #include "./Stage.h"
 #include "globals.h"
 
-namespace {
-	//enum DIR
-	//{
-	//	UP,
-	//	DOWN,
-	//	LEFT,
-	//	RIGHT,
-	//	NONE,
-	//	MAXDIR
-	//};
+namespace 
+{
 	DIR inputDir = NONE;
 }
-
 
 Player::Player()
 	: pos_({ CHA_WIDTH, CHA_HEIGHT }), playerImage_(-1)
